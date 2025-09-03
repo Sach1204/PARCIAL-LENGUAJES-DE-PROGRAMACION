@@ -55,6 +55,10 @@ def cargar_configuracion(archivo_configuracion):
 
 
 def evaluar_cadena(cadena, estado_inicial, estados_aceptacion, transiciones):
+    # 🔹 Caso especial: cadena vacía => NO ACEPTA
+    if cadena == "":
+        return False
+
     estado_actual = estado_inicial
     for simbolo in cadena:
         if (estado_actual, simbolo) in transiciones:
@@ -68,14 +72,15 @@ def main():
     estados, alfabeto, estado_inicial, estados_aceptacion, transiciones = cargar_configuracion('Configuracion.txt')
     
     with open('Cadenas.txt', 'r') as f:
-        cadenas = [line.strip() for line in f if line.strip()]
+        cadenas = [line.strip() for line in f if line.strip() or line == ""] 
     
     for cadena in cadenas:
         resultado = "ACEPTA" if evaluar_cadena(cadena, estado_inicial, estados_aceptacion, transiciones) else "NO ACEPTA"
-        print(f"{cadena}: {resultado}")
+        # Mostrar explícitamente la cadena vacía como "" para que se vea
+        cadena_mostrar = cadena if cadena != "" else '"" (cadena vacía)'
+        print(f"{cadena_mostrar}: {resultado}")
 
 
 if __name__ == "__main__":
     main()
-
 ```
