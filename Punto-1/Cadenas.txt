@@ -1,5 +1,6 @@
 aaabbcc
 bbb
 c
-acb
+
 abc
+acb
