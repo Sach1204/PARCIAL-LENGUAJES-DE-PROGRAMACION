@@ -88,11 +88,12 @@ int yyerror(const char *s) {
 6*7
 8/2
 sqrt 9
-sqrt 2+3
+sqrt 5
 (5+3)*2
 
 
 ```
 **Como se compila y se ve desde terminal los resultados**
-<img width="1856" height="391" alt="image" src="https://github.com/user-attachments/assets/1bcfc340-84ed-40cf-93cd-8beb0b9788c4" />
+<img width="1856" height="391" alt="image" src="https://github.com/user-attachments/assets/65bdfb32-2dfe-4c9e-b511-27d64a2693a4" />
+
 
