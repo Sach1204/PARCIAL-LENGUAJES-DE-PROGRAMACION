@@ -23,11 +23,11 @@ qE,digito,qE
 ```
 **TXT con las Pruebas que va a tener el Automata (CadenasId.txt)**
 ```txt
-abc123
-ID9
-x
-9inicio
-hola-mundo
+variable1
+MiID99
+Prueba
+123abc
+hola mundo
 
 ```
 **Codigo en Python del AFD del ID**
