@@ -32,8 +32,10 @@ qE,c,qE
 aaabbcc
 bbb
 c
-acb
+
 abc
+acb
+
 ```
 **Codigo en Python del AFD (a,b,c)**
 ```python
@@ -84,3 +86,4 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+**Como sale por Terminal el codigo ejecutado**
