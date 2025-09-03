@@ -88,7 +88,7 @@ int yyerror(const char *s) {
 6*7
 8/2
 sqrt 9
-sqrt 5
+sqrt 25
 (5+3)*2
 
 
