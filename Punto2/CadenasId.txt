@@ -1,5 +1,5 @@
-abc123
-ID9
-x
-9inicio
-hola-mundo
+variable1
+MiID99
+Prueba
+123abc
+hola mundo
