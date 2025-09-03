@@ -1,10 +1,10 @@
-**PUNTO 3**
+## PUNTO 3
 
 Escriba un programa en C que implemente una calculadora que pueda sacar raíz cuadrada de números reales. Use flex y Bison. La entrada debe ser por un archivo de texto y la 
 salida debe ser por consola.
 
 
-**Codigo para la Calculador en Lex (Calc.l)**
+### Codigo para la Calculador en Lex (Calc.l)
 ```lex
 %{
 #include "calc.tab.h"
@@ -23,7 +23,7 @@ salida debe ser por consola.
 
 
 ```
-**Codigo para la Calculador en Bison (Calc.y)**
+### Codigo para la Calculador en Bison (Calc.y)
 ```bison
 %{
 #include <stdio.h>
@@ -81,7 +81,7 @@ int yyerror(const char *s) {
 
 
 ```
-**TXT que recibe los datos para hacer la operacion(entrada.txt)**
+### TXT que recibe los datos para hacer la operacion(entrada.txt)
 ```txt
 2+3
 10-4
