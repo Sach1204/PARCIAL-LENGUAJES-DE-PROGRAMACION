@@ -87,3 +87,4 @@ if __name__ == "__main__":
     main()
 ```
 **Como sale por Terminal el codigo ejecutado**
+<img width="1619" height="315" alt="image" src="https://github.com/user-attachments/assets/2da1b857-9309-44eb-bbf2-ba9c05f3bdc8" />
