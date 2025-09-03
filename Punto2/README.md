@@ -80,9 +80,9 @@ def evaluar_cadena(cadena, estado_inicial, estados_aceptacion, transiciones):
 
 
 def main():
-    estados, alfabeto, estado_inicial, estados_aceptacion, transiciones = cargar_configuracion('Configuracion.txt')
+    estados, alfabeto, estado_inicial, estados_aceptacion, transiciones = cargar_configuracion('ConfiguracionId.txt')
 
-    with open('Cadenas.txt', 'r') as f:
+    with open('CadenasId.txt', 'r') as f:
         cadenas = [line.rstrip("\n") for line in f]
 
     for cadena in cadenas:
