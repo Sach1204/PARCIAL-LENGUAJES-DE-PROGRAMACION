@@ -94,3 +94,5 @@ sqrt 2+3
 
 ```
 **Como se compila y se ve desde terminal los resultados**
+<img width="1856" height="391" alt="image" src="https://github.com/user-attachments/assets/1bcfc340-84ed-40cf-93cd-8beb0b9788c4" />
+
