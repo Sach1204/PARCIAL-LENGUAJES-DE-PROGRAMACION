@@ -1,8 +1,9 @@
-1. Para el siguiente ejercicio, de una expresión regular que represente el conjunto descrito. [El conjunto de cadenas sobre {**a**,**b**, **c**} en el cual todas las **a** preceden a las **b** y 
+## PUNTO 1
+Para el siguiente ejercicio, de una expresión regular que represente el conjunto descrito. [El conjunto de cadenas sobre {**a**,**b**, **c**} en el cual todas las **a** preceden a las **b** y 
 éstas a su vez preceden a las **c**. Es posible que no haya **a**, **b** o **c**]. Implemente el AFD para esta expresión 
 regular. Use Python.
 
-**Codigo para la Configuración del Automata (Configuracion.txt)**
+### Codigo para la Configuración del Automata (Configuracion.txt
 ```txt
 # Estados
 q0,q1,q2,qE
@@ -27,7 +28,7 @@ qE,b,qE
 qE,c,qE
 
 ```
-**TXT con las Pruebas que va a tener el Automata (Cadenas.txt)**
+### TXT con las Pruebas que va a tener el Automata (Cadenas.txt)
 ```txt
 aaabbcc
 bbb
@@ -37,7 +38,7 @@ abc
 acb
 
 ```
-**Codigo en Python del AFD (a,b,c)**
+### Codigo en Python del AFD (a,b,c)
 ```python
 def cargar_configuracion(archivo_configuracion):
     with open(archivo_configuracion, 'r') as f:
