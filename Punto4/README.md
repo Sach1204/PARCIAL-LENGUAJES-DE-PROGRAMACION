@@ -54,6 +54,8 @@ int main() {
 ```
 ### Salida en Terminal de Ambos Codigos con tiempo de Ejecución
 
+<img width="1856" height="391" alt="image" src="https://github.com/user-attachments/assets/25125784-bfb4-4f9d-89e1-19510ed742bf" />
+
 ### Conclusiones
 
 C es mucho más rápido al estar compilado, mientras que Python al ser interpretado tarda bastante más en mostrar el resultado.
