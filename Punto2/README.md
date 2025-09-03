@@ -98,3 +98,4 @@ if __name__ == "__main__":
 
 ```
 **Como sale por Terminal el codigo ejecutado**
+<img width="1733" height="259" alt="image" src="https://github.com/user-attachments/assets/fed88dba-c555-4a72-a066-a554ac5a95cd" />
