@@ -1,8 +1,8 @@
-**PUNTO 2**
+## PUNTO 2
 
 <img width="662" height="119" alt="image" src="https://github.com/user-attachments/assets/8be3141d-f3df-4867-af89-6176e803d2ce" />
 
-**Codigo para la Configuración del Automata (ConfiguracionId.txt)**
+### Codigo para la Configuración del Automata (ConfiguracionId.txt)
 ```txt
 # Estados
 q0,q1,qE
@@ -21,7 +21,7 @@ qE,letra,qE
 qE,digito,qE
 
 ```
-**TXT con las Pruebas que va a tener el Automata (CadenasId.txt)**
+### TXT con las Pruebas que va a tener el Automata (CadenasId.txt)
 ```txt
 variable1
 MiID99
@@ -30,7 +30,7 @@ Prueba
 hola mundo
 
 ```
-**Codigo en Python del AFD del ID**
+### Codigo en Python del AFD del ID
 ```python
 def es_letra(ch):
     return ('a' <= ch <= 'z') or ('A' <= ch <= 'Z')
