@@ -93,3 +93,4 @@ sqrt 2+3
 
 
 ```
+**Como se compila y se ve desde terminal los resultados**
