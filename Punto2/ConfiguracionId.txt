@@ -1,0 +1,15 @@
+# Estados
+q0,q1,qE
+# Alfabeto
+a-z,A-Z,0-9
+# Estado inicial
+q0
+# Estados de aceptación
+q1
+# Transiciones (origen, simbolo, destino)
+q0,letra,q1
+q0,digito,qE
+q1,letra,q1
+q1,digito,q1
+qE,letra,qE
+qE,digito,qE
