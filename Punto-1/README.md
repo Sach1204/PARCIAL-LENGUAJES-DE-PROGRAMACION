@@ -55,7 +55,7 @@ def cargar_configuracion(archivo_configuracion):
 
 
 def evaluar_cadena(cadena, estado_inicial, estados_aceptacion, transiciones):
-    # 🔹 Caso especial: cadena vacía => NO ACEPTA
+    # Caso especial: cadena vacía => NO ACEPTA
     if cadena == "":
         return False
 
