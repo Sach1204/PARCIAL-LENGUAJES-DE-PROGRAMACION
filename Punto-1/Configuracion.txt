@@ -1,0 +1,21 @@
+# Estados
+q0,q1,q2,qE
+# Alfabeto
+a,b,c
+# Estado inicial
+q0
+# Estados de aceptación
+q0,q1,q2
+# Transiciones (origen, simbolo, destino)
+q0,a,q0
+q0,b,q1
+q0,c,q2
+q1,b,q1
+q1,c,q2
+q1,a,qE
+q2,c,q2
+q2,a,qE
+q2,b,qE
+qE,a,qE
+qE,b,qE
+qE,c,qE
